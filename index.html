@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Climate change increases the risk of wildfires | Carbon Brief</title>
+        <meta name="description" content="DESCRIPTION">
+        <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+        <meta name="author" content="AUTHOR">
+        <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans|PT+Sans+Narrow|PT+Serif" rel="stylesheet">
+        <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.52.0/mapbox-gl.css' rel='stylesheet' />
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    </head>
+    <body>
+        <div id="console" class='console-open'>
+            <div id="console-toggle">
+                    <a href="#" class="toggle"><span class="arrow-right-hidden">&#10095;</span><span class="arrow-left">&#10094;</span></a>
+            </div>
+            <div class="session">
+                <h1>Climate change increases the risk of <span class="highlight">wildfires</span></h1>
+                <p class="subtitle">Note to reader about how to use</p>
+                <div class="session key">
+                    <h2>Title</h2>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <input type="checkbox" name="supports" checked="checked" hidden>                            
+                            <div class="colour-key" style="background-color: #c43e00;"></div>
+                            Supports statement
+                        </li><br>
+                        <li class="list-group-item">
+                            <input type="checkbox" name="mostly-supports" checked="checked" hidden>  
+                            <div class="colour-key" style="background-color: #ff6f00;"></div>
+                            Mostly supports statement
+                        </li><br>
+                        <li class="list-group-item">
+                            <input type="checkbox" name="informs" checked="checked" hidden>  
+                            <div class="colour-key" style="background-color: #ffa040;"></div>
+                            Informs statement
+                        </li>
+                    </ul>
+                </div>
+                <!-- <div class="session key">
+                    <h2>Type of study</h2>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <input type="checkbox" name="formal" checked="checked" hidden>
+                            <div class="colour-key" style="background-color: #333333;"></div>
+                            Formal study
+                        </li>
+                        <li class="list-group-item">
+                            <input type="checkbox" name="rapid" checked="checked" hidden>
+                            <div class="rapid-key"></div>
+                            Rapid assessment
+                        </li>
+                        <li class="list-group-item" id="trend">
+                            <input type="checkbox" name="trend" checked="checked" hidden>
+                            <div class="trend-key"></div>
+                            <img class="key-icon" src="img/hexagon.svg">
+                            Trend
+                        </li>
+                    </ul>
+                </div> -->
+                <!-- <div class="session impact">
+                    <div class="impacts">
+                        <h2>Impact</h2>
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <input type="checkbox" name="cloud" checked="checked" hidden>    
+                                <i class="fas fa-cloud"></i>
+                                Atmosphere
+                            </li>
+                            <li class="list-group-item">
+                                <input type="checkbox" name="cold" checked="checked" hidden>    
+                                <i class="far fa-snowflake"></i>
+                                Cold, snow & ice
+                            </li>
+                            <li class="list-group-item">
+                                <input type="checkbox" name="coral" checked="checked" hidden>    
+                                <img class="key-icon" src="img/coral-dark.svg">
+                                Coral bleaching
+                            </li>
+                            <li class="list-group-item">
+                                <input type="checkbox" name="drought" checked="checked" hidden>    
+                                <img class="key-icon" src="img/drought-dark.svg">
+                                Drought
+                            </li> 
+                            <li class="list-group-item">
+                                <input type="checkbox" name="eco" checked="checked" hidden>    
+                                <i class="fas fa-seedling"></i>
+                                Ecosystem function
+                            </li>
+                            <li class="list-group-item">
+                                <input type="checkbox" name="heat" checked="checked" hidden>    
+                                <i class="fas fa-thermometer-full"></i>
+                                Heat
+                            </li>
+                            <li class="list-group-item">
+                                <input type="checkbox" name="ocean" checked="checked" hidden>    
+                                <i class="fas fa-ship"></i>
+                                Oceans
+                            </li>
+                            <li class="list-group-item">
+                                <input type="checkbox" name="flood" checked="checked" hidden>    
+                                <i class="fas fa-tint"></i>
+                                Rain & flooding
+                            </li>
+                            <li class="list-group-item">
+                                <input type="checkbox" name="river" checked="checked" hidden>    
+                                <i class="fas fa-water"></i>
+                                River flow
+                            </li>
+                            <li class="list-group-item">
+                                <input type="checkbox" name="storm" checked="checked" hidden>    
+                                <i class="fas fa-bolt"></i>
+                                Storm
+                            </li>
+                            <li class="list-group-item">
+                                <input type="checkbox" name="sun" checked="checked" hidden>    
+                                <i class="fas fa-sun"></i>
+                                Sunshine
+                            </li>
+                            <li class="list-group-item">
+                                <input type="checkbox" name="fire" checked="checked" hidden>    
+                                <i class="fas fa-fire-alt"></i>
+                                Wildfire
+                            </li>
+                        </ul>
+
+                    </div> -->
+                    <!-- <div class="impacts controls">
+                        <button type="button" id="select">Select all</button>
+                        <button type="button" id="deselect">Deselect all</button>
+                    </div> -->
+                </div>
+                <!-- <div class="session last">
+                    <div class="row">
+                        <div class="column">
+                            <h2>Year</h2>
+                            <select id='selectorYear' class="selector">
+                                <option value='all' selected='selected'>All</option>
+                                <option value='2019' >2019</option>
+                                <option value='2018' >2018</option>
+                                <option value='2017' >2017</option>
+                                <option value='2016' >2016</option>
+                                <option value='2015' >2015</option>
+                                <option value='2014' >2014</option>
+                                <option value='2013' >2013</option>
+                                <option value='2012' >2012</option>
+                                <option value='2011' >2011</option>
+                                <option value='2010' >pre-2011</option>
+                            </select>
+                        </div> -->
+                        <div class="column">
+                            <h2>Events</h2>
+                            <p id="studies">65</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="map">
+            <div id="logo"></div>
+        </div>
+        <h3 id="mobile-message">For an interactive version of the map, please view this page on a desktop, laptop or tablet.</h3>
+        <div id="map-graphic"></div>
+        <script src="data/studies.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
