@@ -8,7 +8,7 @@ var geojson = {
        "coordinates":  [ -118.84723,40.895089 ]
     },
     "properties": {
-    "location":"Western Us",
+    "location":"Western US",
     "type":"Wildfire",
     "impact":"SS",
     "citation":"Abatzoglou, J. T. and Williams, A. P., (2016), Impact of anthropogenic climate change on wildfire across western US forests, PNAS, 113 (42), 11770-11775",
@@ -31,7 +31,7 @@ var geojson = {
     "properties": {
     "location":"Global",
     "type":"Wildfire",
-    "impact":"IS",
+    "impact":"SS",
     "citation":"Abatzoglou, J. T., Williams, A. P. and Barbero, R., (2019), Global Emergence of Anthropogenic Climate Change in Fire Weather Indices, Geophys. Res. Lett., 46 (1), 326-336",
     "journal":"Geophys. Res. Lett., 46 (1), 326-336",
     "summary":"This study of the fire weather index determined when anthropogenic climate change could/will first be detected outside the range of natural variability. The anthropogenic climate change signal emerged for 22% of burnable land area by 2019, most notably in the Amazon, Mediterranean and Southern Africa. By mid 21st Century, emergence was detected in projections of 33-62% of burnable lands. The area of emergence at 2C is half that at 3C above pre-industrial levels.",
@@ -73,7 +73,7 @@ var geojson = {
     "properties": {
     "location":"Amazon",
     "type":"Wildfire",
-    "impact":"SS",
+    "impact":"IS",
     "citation":"Alencar, A. A., Brando, P. M., Asner, G. P. and Putz, F. E., (2015), Landscape fragmentation, severe drought, and the new Amazon forest fire regime, Ecological Applications, 25 (6), 1493-1505",
     "journal":"Ecological Applications, 25 (6), 1493-1505",
     "summary":"No top interpretation",
@@ -115,7 +115,7 @@ var geojson = {
     "properties": {
     "location":"Amazon",
     "type":"Wildfire",
-    "impact":"SS",
+    "impact":"MSS",
     "citation":"Aragão, L. E. O. C., Anderson, L. O., Fonseca, M. G., Rosan, T. M., Vedovato, L. B., Wagner, F. H., Silva, C. V. J., Junior, C. H. L. S., Arai, E., Aguiar, A. P., Barlow, J., Berenguer, E., Deeter, M. N., Domingues, L. G., Gatti, L., Gloor, M., Malhi, Y., Marengo, J. A., Miller, J. B., Phillips, O. L. and Saatchi, S., (2018), 21st Century drought-related fires counteract the decline of Amazon deforestation carbon emissions, Nat Commun, 9 (1), 1-12",
     "journal":"Nat Commun, 9 (1), 1-12",
     "summary":"The study examines active fire count data from Amazonia and evaluates the contributions of drought-related and deforestation fires to total CO2 emissions from fires. Despite a 76% decline in deforestation rates over the past 13 years, fire incidence increased by 36% during the 2015 drought compared to the preceding 12 years. The three most intense droughts and fire seasons of the 21st Century were associated with sea surface temperature anomalies in the North and South Atlantic and the Pacific.",
@@ -136,7 +136,7 @@ var geojson = {
     "properties": {
     "location":"Global",
     "type":"Wildfire",
-    "impact":"MSS",
+    "impact":"IS",
     "citation":"Archibald, S., Lehmann, C. E. R., Gómez-Dans, J. L. and Bradstock, R. A., (2013), Defining pyromes and global syndromes of fire regimes, PNAS, 110 (16), 6442-6447",
     "journal":"PNAS, 110 (16), 6442-6447",
     "summary":"No top interpretation",
@@ -157,7 +157,7 @@ var geojson = {
     "properties": {
     "location":"Global",
     "type":"Wildfire",
-    "impact":"SS",
+    "impact":"MSS",
     "citation":"Arora, V. K. and Melton, J. R., (2018), Reduction in global area burned and wildfire emissions since 1930s enhances carbon uptake by land, Nat Commun, 9 (1), ",
     "journal":"Nat Commun, 9 (1),",
     "summary":"This paper uses a model to look at how the area of fire burned has been affected by deforestation. It shows that land management can offset the effects of climate change on area burnt, resulting in less area burnt since the 1930s.",
@@ -178,7 +178,7 @@ var geojson = {
     "properties": {
     "location":"Global",
     "type":"Wildfire",
-    "impact":"SS",
+    "impact":"MSS",
     "citation":"Bedia, J., Herrera, S., Gutiérrez, J. M., Benali, A., Brands, S., Mota, B. and Moreno, J. M., (2015), Global patterns in the sensitivity of burned area to fire-weather: Implications for climate change, Agricultural and Forest Meteorology, 214-215 (), 369-379",
     "journal":"Agricultural and Forest Meteorology,  214-215 (), 369-379",
     "summary":"Fire weather index (FWI) was modelled globally for 1981–2000 using 7 Earth System Models and two climate scenarios. Observed fire patterns suggest that burned area is sensitive to change in FWI below ~17, but insensitive to changes in FWI above this threshold. Hence boreal forests and tropical forests are identified as sensitive to changes in temperature, precipitation, humidity and wind speed. Increases in burned area are modelled in these sensitive biomes for the period 2026–2045.",
@@ -199,7 +199,7 @@ var geojson = {
     "properties": {
     "location":"Global",
     "type":"Wildfire",
-    "impact":"SS",
+    "impact":"IS",
     "citation":"Bistinas, I., Harrison, S. P., Prentice, I. C. and Pereira, J. M. C., (2014), Causal relationships versus emergent patterns in the global controls of fire frequency, Biogeosciences, 11 (18), 5087-5101",
     "journal":"Biogeosciences, 11 (18), 5087-5101",
     "summary":"This paper shows that, at the global scale burnt area: increases with maximum monthly temperature; increases with diurnal range (related to humidity); increases with the number of days without rainfall; increases with net primary production (NPP) because higher NPP means there is more fuel to burn; and decreases with cropland area and human population density",
@@ -241,14 +241,14 @@ var geojson = {
     "properties": {
     "location":"Amazon",
     "type":"Wildfire",
-    "impact":"SS",
+    "impact":"MSS",
     "citation":"Brando, P. M., Balch, J. K., Nepstad, D. C., Morton, D. C., Putz, F. E., Coe, M. T., Silvério, D., Macedo, M. N., Davidson, E. A., Nóbrega, C. C., Alencar, A. and Soares-Filho, B. S., (2014), Abrupt increases in Amazonian tree mortality due to drought–fire interactions, PNAS, 111 (17), 6347-6352",
     "journal":"PNAS, 111 (17), 6347-6352",
     "summary":"No top interpretation",
     "DOI":"10.1073/PNAS.1305499111",
     "TopExpertScore":null,
     "TopInterpretationLikes":"N/A",
-    "TopInterpretationSubmitter":"N/A",
+    "TopInterpretationSubmitter":"Adam Smith",
     "TotalScore":0.75,
     "link":"http://dx.doi.org/10.1073/pnas.1305499111"
     }
@@ -262,7 +262,7 @@ var geojson = {
     "properties": {
     "location":"Global",
     "type":"Wildfire",
-    "impact":"SS",
+    "impact":"IS",
     "citation":"Brücher, T., Brovkin, V., Kloster, S., Marlon, J. R. and Power, M. J., (2014), Comparing modelled fire dynamics with charcoal records for the Holocene, Clim. Past, 10 (2), 811-824",
     "journal":"Clim. Past, 10 (2), 811-824",
     "summary":"No top interpretation",
@@ -302,9 +302,9 @@ var geojson = {
        "coordinates":  [ 1.173896,41.672912 ]
     },
     "properties": {
-    "location":"Ne Spain",
+    "location":"NE Spain",
     "type":"Wildfire",
-    "impact":"SS",
+    "impact":"MSS",
     "citation":"Cardil, A., Merenciano, D. and Molina-Terrén, D. M., (2016), Wildland fire typologies and extreme temperatures in NE Spain, iForest, 10 (1), 9",
     "journal":"iForest, 10 (1), 9",
     "summary":"This paper analyses the types of wildfires in Spain. It shows that the fires related to high temperature days accounted for the majority of total area burned.",
@@ -325,7 +325,7 @@ var geojson = {
     "properties": {
     "location":"Sardinia",
     "type":"Wildfire",
-    "impact":"SS",
+    "impact":"MSS",
     "citation":"Cardil, A., Salis, M., Spano, D., Delogu, G. and Molina Terrén, D., (2014), Large wildland fires and extreme temperatures in Sardinia (Italy), iForest, 7 (3), 162",
     "journal":"iForest, 7 (3), 162",
     "summary":"This study analysed the relation between observed temperature and wild fire activity in Sardinia. It shows a remarkable relation between wildland fires are high temperature. The average size and number of fires as well of occurrence of large fires and area burned were all high on high temperature days. It suggests that fire management could plan more effectively by using the statistics and projections on heat waves and strong winds.",
@@ -346,7 +346,7 @@ var geojson = {
     "properties": {
     "location":"Russia",
     "type":"Wildfire",
-    "impact":"IS",
+    "impact":"SS",
     "citation":"de Groot, W. J., Flannigan, M. D. and Cantin, A. S., (2013), Climate change impacts on future boreal fire regimes, Forest Ecology and Management, 294 (), 35-44",
     "journal":"Forest Ecology and Management, 294 (), 35-44",
     "summary":"2091–2100 fire regimes were simulated in central Russia and western Canada. Relative changes to monthly temperature, precipitation, relative humidity and wind speed, from three global climate models and three climate change scenarios, were superimposed on contemporary daily values to estimate future fire severity. All models and climate change scenarios indicate that future fire weather conditions will become more severe, and fire control more difficult, in both boreal regions.",
@@ -367,7 +367,7 @@ var geojson = {
     "properties": {
     "location":"Global",
     "type":"Wildfire",
-    "impact":"SS",
+    "impact":"IS",
     "citation":"Doerr, S. H. and Santín, C., (2016), Global trends in wildfire and its impacts: perceptions versus realities in a changing world, Phil. Trans. R. Soc. B, 371 (1696), 20150345",
     "journal":"Phil. Trans. R. Soc. B, 371 (1696), 20150345",
     "summary":"This article offers a 'reality check' on trends in the global frequency, extent and severity of wildfire in the observational record, while noting that climate change has considerable potential to influence fire risk and that humans must learn to co-exist sustainably with fire. Satellite and inventory-based records point towards reductions in fire activity are observed identified at the global scale and in some regions, consistent with human suppression of wildfire risk.",
@@ -430,7 +430,7 @@ var geojson = {
     "properties": {
     "location":"Southern Australia",
     "type":"Wildfire",
-    "impact":"MSS",
+    "impact":"SS",
     "citation":"Dowdy, A. J., Ye, H., Pepler, A., Thatcher, M., Osbrough, S. L., Evans, J. P., Virgilio, G. D. and McCarthy, N., (2019), Future changes in extreme weather and pyroconvection risk factors for Australian wildfires, Sci Rep, 9 (1), 1-11",
     "journal":"Sci Rep, 9 (1), 1-11",
     "summary":"This study projects climate change will lead to an increase in fire weather, using both the McArthur Forest Fire Danger Index (FFDI) and Continuous Haines index (CH). Dangerous atmospheric conditions, associated with extreme fire weather and pyroconvection, were also projected to increase, including in populated areas of southern Australia.",
@@ -451,7 +451,7 @@ var geojson = {
     "properties": {
     "location":"Mediterranean",
     "type":"Wildfire",
-    "impact":"MSS",
+    "impact":"IS",
     "citation":"Duane, A. and Brotons, L., (2018), Synoptic weather conditions and changing fire regimes in a Mediterranean environment, Agricultural and Forest Meteorology, 253-254 (), 190-202",
     "journal":"Agricultural and Forest Meteorology, 253-254 (), 190-202",
     "summary":"This paper analyses different types of fires in Mediterranean environment. It shows that fire suppression managed to reduce fires in heat situations, but not in windy ones.",
@@ -472,7 +472,7 @@ var geojson = {
     "properties": {
     "location":"French Alps",
     "type":"Wildfire",
-    "impact":"SS",
+    "impact":"IS",
     "citation":"Dupire, S., Curt, T. and Bigot, S., (2017), Spatio-temporal trends in fire weather in the French Alps, Science of The Total Environment, 595 (), 801-817",
     "journal":"Science of The Total Environment, 595 (), 801-817",
     "summary":"This study of climatic and environmental variables that contribute to fire risk in the French Alps determined that climate change increased the risk of fire weather in the period 1959-2015. However the southern Alps showed high fire danger and a significant increase, while the northern Alps saw low-moderate fire danger with an increase only at low elevation.",
@@ -535,7 +535,7 @@ var geojson = {
     "properties": {
     "location":"Global",
     "type":"Wildfire",
-    "impact":"SS",
+    "impact":"IS",
     "citation":"Flannigan, M., Cantin, A. S., de Groot, W. J., Wotton, M., Newbery, A. and Gowman, L. M., (2013), Global wildland fire season severity in the 21st century, Forest Ecology and Management, 294 (), 54-61",
     "journal":"Forest Ecology and Management, 294 (), 54-61",
     "summary":"This paper shows that we expect more fires in a warmer climate. They used climate models to projects how climate change affects wildfires, and show that significant increases in future wildfires in many parts of the world. This includes increases in area burnt and in the number of fires.",
@@ -619,7 +619,7 @@ var geojson = {
     "properties": {
     "location":"Tasmania",
     "type":"Wildfire",
-    "impact":"IS",
+    "impact":"SS",
     "citation":"Fox-Hughes, P., Harris, R., Lee, G., Grose, M. and Bindoff, N., (2014), Future fire danger climatology for Tasmania, Australia, using a dynamically downscaled regional climate model, Int. J. Wildland Fire, 23 (3), 309-321",
     "journal":"Int. J. Wildland Fire, 23 (3), 309-321",
     "summary":"In this study, dynamically downscaled regional climate models (RCM) showed an increase in fire danger across Tasmania. This trend was greatest in spring-early summer, with eastern areas showing a much greater increase than those areas in the west. Models and observations were well correlated during the period of overlap, while future simulations show increasing fire danger relationship.",
@@ -661,7 +661,7 @@ var geojson = {
     "properties": {
     "location":"Canada",
     "type":"Wildfire",
-    "impact":"IS",
+    "impact":"SS",
     "citation":"Hanes, C. C., Wang, X., Jain, P., Parisien, M., Little, J. M. and Flannigan, M. D., (2018), Fire-regime changes in Canada over the last half century, Can. J. For. Res., 49 (3), 256-269",
     "journal":"Can. J. For. Res., 49 (3), 256-269",
     "summary":"Analysis of Canadian fire records 1959-2015 indicate that fire behaviour is tending towards a longer fire season, beginning one week earlier and ending one week later. Larger fires have become significantly more common and increased in size, particularly in western Canada, perhaps due to lightning ignitions. Human ignitions have stabilised or reduced.",
@@ -703,7 +703,7 @@ var geojson = {
     "properties": {
     "location":"Global",
     "type":"Wildfire",
-    "impact":"SS",
+    "impact":"MSS",
     "citation":"Harrison, S. P., Bartlein, P. J., Brovkin, V., Houweling, S., Kloster, S. and Prentice, I. C., (2018), The biomass burning contribution to climate–carbon-cycle feedback, Earth Syst. Dynam., 9 (2), 663-677",
     "journal":"Earth Syst. Dynam., 9 (2), 663-677",
     "summary":"This paper used sedimentary charcoal records to extend observations of biomass burnt through the last millennium. A correlation was established between biomass burnt and temperature, enabling pre-industrial sedimentary charcoal records to act as proxy for temperature, when a suitably global and well sampled database is utilised. The sedimentary charcoal record enabled prediction of a strong contribution from fire emissions to the climate-carbon cycle feedback.",
@@ -766,7 +766,7 @@ var geojson = {
     "properties": {
     "location":"Global",
     "type":"Wildfire",
-    "impact":"IS",
+    "impact":"SS",
     "citation":"Huang, Y., Wu, S. and Kaplan, J. O., (2015), Sensitivity of global wildfire occurrences to various factors in the context of global change, Atmospheric Environment, 121 (), 86-92",
     "journal":"Atmospheric Environment, 121 (), 86-92",
     "summary":"This study investigated the impact on fire occurrence rate between 2000-2050, due to: climate change (temperature, precipitation, humidity); lightning activity; vegetation density (CO2 fertilisation, anthropogenic land use and land cover); and anthropogenic population density (ignitions & suppression). \nSome significant regional variations were identified and explained, with fire occurrence increasing in most regions except southeast Africa, due to population density increase.",
@@ -808,7 +808,7 @@ var geojson = {
     "properties": {
     "location":"Global",
     "type":"Wildfire",
-    "impact":"SS",
+    "impact":"MSS",
     "citation":"Jolly, W. M., Cochrane, M. A., Freeborn, P. H., Holden, Z. A., Brown, T. J., Williamson, G. J. and Bowman, D. M. J. S., (2015), Climate-induced variations in global wildfire danger from 1979 to 2013, Nat Commun, 6 (1), 1-11",
     "journal":"Nat Commun, 6 (1), 1-11",
     "summary":"This study of climate observations and fire metrics demonstrated an increase in global mean fire weather season length of 18.7%, 1979-2013, as well as a doubling of global burnable area affected by increased fire season length. These increased climatic risks could result in greater frequency or intensity of fires, depending on fuel loads and ignition sources.",
@@ -829,7 +829,7 @@ var geojson = {
     "properties": {
     "location":"Global",
     "type":"Wildfire",
-    "impact":"IS",
+    "impact":"SS",
     "citation":"Kam, J., Knutson, T. R., Zeng, F. and Wittenberg, A. T., (2016), Multimodel Assessment of Anthropogenic Influence on Record Global and Regional Warmth During 2015, Bull. Amer. Meteor. Soc., 97 (12), S4-S8",
     "journal":"Bull. Amer. Meteor. Soc., 97 (12), S4-S8",
     "summary":"This paper presents a systematic analysis of the causes of extreme events around the world in 2015. It shows that human-induced climate change has increased the likelihood of a fire season such as the one observed in Alaska in 2015.",
@@ -934,7 +934,7 @@ var geojson = {
     "properties": {
     "location":"Sweden",
     "type":"Wildfire",
-    "impact":"MSS",
+    "impact":"SS",
     "citation":"Krikken, F., Lehner, F., Haustein, K., Drobyshev, I. and Oldenborgh, G. J. v., (2019), Attribution of the role of climate change in the forest fires in Sweden 2018, Natural Hazards and Earth System Sciences Discussions,  (), 1-24",
     "journal":"Natural Hazards and Earth System Sciences Discussions, (), 1-24",
     "summary":"No top interpretation",
@@ -953,7 +953,7 @@ var geojson = {
        "coordinates":  [ 149.360835,-25.363882 ]
     },
     "properties": {
-    "location":"Queensland Aus",
+    "location":"Queensland, Australia",
     "type":"Wildfire",
     "impact":"SS",
     "citation":"Lewis, S. C., Blake, S. A. P., Trewin, B., Black, M. T., Dowdy, A. J., Perkins-Kirkpatrick, S. E., King, A. D., Sharples, J. J., Lewis, S. C., Blake, S. A. P., Trewin, B., Black, M. T., Dowdy, A. J., Perkins-Kirkpatrick, S. E., King, A. D. and Sharples, J. J., (2019), Deconstructing factors contributing to the 2018 fire weather in Queensland, Australia, Bull. Amer. Meteor. Soc.,  (), ",
@@ -997,7 +997,7 @@ var geojson = {
     "properties": {
     "location":"Southern hemisphere",
     "type":"Wildfire",
-    "impact":"IS",
+    "impact":"SS",
     "citation":"Mariani, M., Holz, A., Veblen, T. T., Williamson, G., Fletcher, M. and Bowman, D. M. J. S., (2018), Climate Change Amplifications of Climate‐Fire Teleconnections in the Southern Hemisphere, Geophys. Res. Lett., 45 (10), 5071-5081",
     "journal":"Geophys. Res. Lett., 45 (10), 5071-5081",
     "summary":"This Southern Hemisphere study demonstrates a strong link  between the increasingly positive polarity of the southern annular mode (SAM), El Nino Southern Oscillation (ENSO) and Indian Ocean Dipole (IOD), observed during the early 21st Century, with rising temperatures and rising instances of lightning-strike lit wildfires. Rising temperatures, caused by climate change, are predicted to increase lightning strike occurrence 5-12% per degree of warming, increasing fire ignition.",
@@ -1018,7 +1018,7 @@ var geojson = {
     "properties": {
     "location":"Global",
     "type":"Wildfire",
-    "impact":"IS",
+    "impact":"SS",
     "citation":"Marlon, J. R., Bartlein, P. J., Daniau, A., Harrison, S. P., Maezumi, S. Y., Power, M. J., Tinner, W. and Vanniére, B., (2013), Global biomass burning: a synthesis and review of Holocene paleofire records and their controls, Quaternary Science Reviews, 65 (), 5-25",
     "journal":"Quaternary Science Reviews, 65 (), 5-25",
     "summary":"No top interpretation",
@@ -1039,7 +1039,7 @@ var geojson = {
     "properties": {
     "location":"Global",
     "type":"Wildfire",
-    "impact":"SS",
+    "impact":"IS",
     "citation":"Marlon, J. R., Kelly, R., Daniau, A., Vannière, B., Power, M. J., Bartlein, P., Higuera, P., Blarquez, O., Brewer, S., Brücher, T., Feurdean, A., Romera, G. G., Iglesias, V., Maezumi, S. Y., Magi, B., Mustaphi, C., J, C. and Zhihai, T., (2016), Reconstructions of biomass burning from sediment-charcoal records to improve data–model comparisons, Biogeosciences, 13 (11), 3225-3244",
     "journal":"Biogeosciences, 13 (11), 3225-3244",
     "summary":"No top interpretation",
@@ -1081,14 +1081,14 @@ var geojson = {
     "properties": {
     "location":"Amazon",
     "type":"Wildfire",
-    "impact":"IS",
+    "impact":"SS",
     "citation":"Page, Y. L., Morton, D., Hartin, C., Bond-Lamberty, B., Pereira, J. M. C., Hurtt, G. and Asrar, G., (2017), Synergy between land use and climate change increases future fire risk in Amazon forests, Earth Syst. Dynam., 8 (4), 1237-1246",
     "journal":"Earth Syst. Dynam., 8 (4), 1237-1246",
     "summary":"No top interpretation",
     "DOI":"HTTPS://DOI.ORG/10.5194/ESD-8-1237-2017",
     "TopExpertScore":null,
     "TopInterpretationLikes":"N/A",
-    "TopInterpretationSubmitter":"N/A",
+    "TopInterpretationSubmitter":"José Miguel Pereira",
     "TotalScore":1,
     "link":"http://doi.org/10.5194/esd-8-1237-2017"
     }
@@ -1165,7 +1165,7 @@ var geojson = {
     "properties": {
     "location":"Moscow",
     "type":"Wildfire",
-    "impact":"SS",
+    "impact":"IS",
     "citation":"Shaposhnikov, D., Revich, B., Bellander, T., Bedada, G. B., Bottai, M., Kharkova, T., Kvasha, E., Lezina, E., Lind, T., Semutnikova, E. and Pershagen, G., (2014), Mortality Related to Air Pollution with the Moscow Heat Wave and Wildfire of 2010, Epidemiology, 25 (3), 359-364",
     "journal":"Epidemiology, 25 (3), 359-364",
     "summary":"This paper shows that increased air pollution from wildfires in Moscow in 2010 led to an increase in mortality, with interactions between high temperatures and air pollution from wildfires estimated to contribute to more than 2000 deaths.",
@@ -1214,7 +1214,7 @@ var geojson = {
     "DOI":"10.1007/S10113-018-1415-6",
     "TopExpertScore":null,
     "TopInterpretationLikes":"N/A",
-    "TopInterpretationSubmitter":"N/A",
+    "TopInterpretationSubmitter":"José Miguel Pereira",
     "TotalScore":0.5,
     "link":"https://link.springer.com/article/10.1007/s10113-018-1415-6"
     }
@@ -1228,7 +1228,7 @@ var geojson = {
     "properties": {
     "location":"US ",
     "type":"Wildfire",
-    "impact":"SS",
+    "impact":"IS",
     "citation":"Syphard, A. D., Keeley, J. E., Pfaff, A. H. and Ferschweiler, K., (2017), Human presence diminishes the importance of climate in driving fire activity across the United States, PNAS, 114 (52), 13750-13755",
     "journal":"PNAS, 114 (52), 13750-13755",
     "summary":"Evidence gathered in this paper indicates that climate change will lead to worsening fire conditions. However, it also concluded that, with regard only to historic fires, where human populations interact closely with forests, anthropogenic influences can exert greater control on fire spread than climate, in some US regions studied. Whether this conclusion will hold for future predicted worsening fire conditions, is not discussed.",
@@ -1312,7 +1312,7 @@ var geojson = {
     "properties": {
     "location":"Mediterranean",
     "type":"Wildfire",
-    "impact":"IS",
+    "impact":"SS",
     "citation":"Turco, M., Rosa-Cánovas, J. J., Bedia, J., Jerez, S., Montávez, J. P., Llasat, M. C. and Provenzale, A., (2018), Exacerbated fires in Mediterranean Europe due to anthropogenic warming projected with non-stationary climate-fire models, Nat Commun, 9 (1), 1-9",
     "journal":"Nat Commun, 9 (1), 1-9",
     "summary":"This study in Mediterranean Europe found that increasing global warming from 1.5C, to 2C and 3C above pre-industrial levels resulted in 40-100% increase in the projected area burned by wildfires. In some regions the area burned increased further. This highlights the significant benefit of climate change mitigation activities that limit global warming to well below 2C.",
@@ -1333,7 +1333,7 @@ var geojson = {
     "properties": {
     "location":"North America",
     "type":"Wildfire",
-    "impact":"SS",
+    "impact":"IS",
     "citation":"Veraverbeke, S., Rogers, B. M., Goulden, M. L., Jandt, R. R., Miller, C. E., Wiggins, E. B. and Randerson, J. T., (2017), Lightning as a major driver of recent large fire years in North American boreal forests, Nature Clim Change, 7 (7), 529-534",
     "journal":"Nature Clim Change, 7 (7), 529-534",
     "summary":"Lightening ignitions have become more regular in the Boreal zone since and are correlated with increase temperatures.",
@@ -1396,7 +1396,7 @@ var geojson = {
     "properties": {
     "location":"US ",
     "type":"Wildfire",
-    "impact":"IS",
+    "impact":"SS",
     "citation":"Westerling, A. L., (2016), Increasing western US forest wildfire activity: sensitivity to changes in the timing of spring, Phil. Trans. R. Soc. B, 371 (1696), 20150178",
     "journal":"Phil. Trans. R. Soc. B, 371 (1696), 20150178",
     "summary":"This study reports on increases in burned area, fire season length and average burn time across western US forests. Burned area was >10 times greater in 2003-2012 than in 1973-1982. Rising wildfire activity is linked to earlier spring snowmelt and longer/more intense periods of moisture deficit in spring and summer. Areas where the historical mean snow-free season ranged between two and four months, and with relatively high cumulative warm-season evapotranspiration, have been most affected.",
@@ -1417,7 +1417,7 @@ var geojson = {
     "properties": {
     "location":"Australia",
     "type":"Wildfire",
-    "impact":"SS",
+    "impact":"IS",
     "citation":"Williams, A. N., Mooney, S. D., Sisson, S. A. and Marlon, J., (2015), Exploring the relationship between Aboriginal population indices and fire in Australia over the last 20,000 years, Palaeogeography, Palaeoclimatology, Palaeoecology, 432 (), 49-57",
     "journal":"Palaeogeography, Palaeoclimatology, Palaeoecology, 432 (), 49-57",
     "summary":"No top interpretation",
@@ -1459,7 +1459,7 @@ var geojson = {
     "properties": {
     "location":"Canada",
     "type":"Wildfire",
-    "impact":"IS",
+    "impact":"SS",
     "citation":"Wotton, B. M., Flannigan, M. D. and Marshall, G. A., (2017), Potential climate change impacts on fire intensity and key wildfire suppression thresholds in Canada, Environ. Res. Lett., 12 (9), 095003",
     "journal":"Environ. Res. Lett., 12 (9), 095003",
     "summary":"This paper focussed on Canadian boreal forests and modelled the way in which fire can spread to then plan suppression and management techniques. All model scenarios project increases in fuel dryness and fire behaviour, starting from 2020 through to the end of the century. The occurrence of the most intense types of fire (crown fires) increased and days when fire intensity exceed suppression capability significantly increased.",
@@ -1522,7 +1522,7 @@ var geojson = {
     "properties": {
     "location":"Global",
     "type":"Wildfire",
-    "impact":"MSS",
+    "impact":"IS",
     "citation":"Zscheischler, J., Westra, S., Hurk, B. J. J. M. v. d., Seneviratne, S. I., Ward, P. J., Pitman, A., AghaKouchak, A., Bresch, D. N., Leonard, M., Wahl, T. and Zhang, X., (2018), Future climate risk from compound events, Nature Clim Change, 8 (6), 469",
     "journal":"Nature Clim Change, 8 (6), 469",
     "summary":"This paper reviews the evidence for compound events (floods, wildfires, heatwaves and droughts) and argues that we should be looking at extreme events through their effects on multiple impacts.",
