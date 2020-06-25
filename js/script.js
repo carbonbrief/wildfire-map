@@ -61,9 +61,9 @@ var typeTags = {
     
 };
 var impactTags = {
-    "SS": "supports",
-    "MSS": "mostly-supports",
-    "IS": "informs"
+    "SS": "Supports statement",
+    "MSS": "Mostly supports statement",
+    "IS": "Informs statement"
 }
 
 var popupIcon = {
@@ -71,9 +71,9 @@ var popupIcon = {
 }
 
 var colors = {
-    "supports": "#c43e00",
-    "mostly-supports": "#ff6f00",
-    "informs": "#ffa040"
+    "Supports statement": "#c43e00",
+    "Mostly supports statement": "#ff6f00",
+    "Informs statement": "#ffa040"
 }
 
 var studyTypes = {
@@ -115,6 +115,7 @@ map.on('load', function() {
 
         // create class names to use as tags for filtering
         let typeTag = typeTags[type];
+        let title = feature.properties['title'];
         let impact = feature.properties['impact'];
         let impactTag = impactTags[impact];
         let sType = feature.properties['studyType'];
@@ -147,8 +148,8 @@ map.on('load', function() {
         new mapboxgl.Marker(el)
         .setLngLat(feature.geometry.coordinates)
         .setPopup(new mapboxgl.Popup({ offset: 10, closeButton: false }) // add popups
-        .setHTML('<h3 style="padding-bottom: 4px; border-bottom: 2px solid ' + colors[impactTag] + ';">' + feature.properties['location'] + '</h3><ul class="list-group list-tooltip"><li>This study '
-        + impactTag + " " + 'this statement.</li></ul><p class="summary">' 
+        .setHTML('<h4 style="padding-bottom: 4px; border-bottom: 2px solid ' + colors[impactTag] + ';">' + feature.properties['title'] + '</h4><ul class="list-group list-tooltip"><li>Area of study: ' + feature.properties['location'] + '</li><li><div style="display:inline-block" class=' + impactTag + '>' + popupIcon[type] + "</div>"  
+        + impactTag + " " + 'that climate change increases the risk of wildfires.</li></ul><p class="summary">' 
         + summary + '</p><p class="citation"><a href="'
         + url + '" target="_blank">' + clipCitation + "),</a><span class='citation2'> " + feature.properties['journal'] + '</span></p>'))
         .addTo(map);
@@ -229,7 +230,7 @@ map.on('load', function() {
         };*/
 
         // GATHER DATA ON CHECKBOXES
-        let checkboxes = ["supports", "mostly-supports", "informs"];
+        let checkboxes = ["Supports", "Mostly", "Informs"];
 
         let selected = [];
         $('input:checked').each(function() {
