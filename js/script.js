@@ -6,9 +6,9 @@ if (!mapboxgl.supported()) {
     mapboxgl.accessToken = 'pk.eyJ1Ijoicm9zcGVhcmNlIiwiYSI6ImNqbGhxaTAwNDFnamYzb25qY2Jha2NrZWgifQ.xZMz-pe7wEEpARooTi6lkw';
     var map = new mapboxgl.Map({
         container: 'map',
-        style: 'mapbox://styles/rospearce/cjg1zpjdw5l452slhwkpnwi3f',
-        center: [8, 20],
-        zoom: 1.5,
+        style: 'mapbox://styles/rospearce/ckc3fvx5v0tig1ipcowx490i6',
+        center: [-74.5, 40],
+        zoom: 0,
         maxZoom: 12
     });
 }
@@ -144,6 +144,9 @@ map.on('load', function() {
         el.className = "marker" + " " + typeTag + " " + impactTag;
         el.innerHTML = '<i class="' + symbol + '"></i>';
 
+         // exclude Global markers for now
+        if (feature.properties['location'] !== 'Global') {
+
         // make a marker for each feature and add to the map
         new mapboxgl.Marker(el)
         .setLngLat(feature.geometry.coordinates)
@@ -151,11 +154,13 @@ map.on('load', function() {
         .setHTML('<h4 style="padding-bottom: 4px; border-bottom: 2px solid ' + colors[impactTag] + ';">' + feature.properties['title'] + '</h4><ul class="list-group list-tooltip"><li>Area of study: ' + feature.properties['location'] + '</li><li><div style="display:inline-block" class=' + impactTag + '>' + popupIcon[type] + "</div>"  
         + impactTag + " " + 'that climate change increases the risk of wildfires.</li></ul><p class="summary">' 
         + summary + '</p><p class="citation"><a href="'
-        + url + '" target="_blank">' + clipCitation + "),</a><span class='citation2'> " + feature.properties['journal'] + '</span></p>'))
+        + url + '" target="_blank">' + clipCitation + ",</a><span class='citation2'> " + feature.properties['journal'] + '</span></p>'))
         .addTo(map);
 
-
+}
     });
+
+// When the user clicks on div, open the popup
 
 
     $(".list-group-item").click(function(e) {
@@ -175,7 +180,7 @@ map.on('load', function() {
             $(this).removeClass("unselected");
         }
 
-        filterMap();
+        //REMOVE FILTER//filterMap();
 
     });
 
@@ -353,3 +358,20 @@ $(".toggle").click(function() {
     $('.arrow-right-hidden').toggleClass('arrow-right');
     $('.arrow-left').toggleClass('arrow-left-hidden');
 });
+
+//Global Studies
+
+        if (feature.properties['location'] == 'Global') {
+
+var el = document.createElement('div');
+        el.className = "marker" + " " + typeTag + " " + impactTag;
+        el.innerHTML = '<i class="' + symbol + '"></i>';
+
+var target = document.querySelector(id="globalcontainer");
+
+
+
+
+
+
+    }
