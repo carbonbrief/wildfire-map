@@ -8,7 +8,7 @@ if (!mapboxgl.supported()) {
         container: 'map',
         style: 'mapbox://styles/rospearce/ckc3fvx5v0tig1ipcowx490i6',
         center: [-74.5, 40],
-        zoom: 0,
+        zoom: 1.5,
         maxZoom: 12
     });
 }
