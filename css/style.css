@@ -630,7 +630,7 @@ select {
     margin: auto;
     left: 0;
     right: 0;
-    bottom: 5.5%;
+    top: 700px;
     width: 550px;
     height: 2.5%;
     border: 1px solid white;
@@ -647,7 +647,7 @@ select {
     margin: auto;
     left: 0;
     right: 0;
-    bottom: 10.5%;
+    top: 705px;
     width: ;
     height: ;
     padding: 0px 0px;
