@@ -15,22 +15,20 @@ if (!mapboxgl.supported()) {
 
 map.scrollZoom.disable();
 
-let screenWidth = window.innerWidth;
-
 let boundsMobile = [
     [ -160, -70],[60, 85]
 ]
 
 let boundsLaptop = [
-    [ -220, -70],[100, 90]
+    [ -230, -60],[90, 90]
 ]
 
 let boundsDesktop = [
-    [ -248, -75],[30, 86]
+    [ -248, -65],[30, 86]
 ]
 
 let boundsRetina = [
-    [ -225, -65],[31, 78]
+    [ -225, -55],[31, 70]
 ]
 
 function getBounds () {
