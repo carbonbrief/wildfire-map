@@ -18,19 +18,19 @@ map.scrollZoom.disable();
 let screenWidth = window.innerWidth;
 
 let boundsMobile = [
-    [ -100, -70],[120, 85]
+    [ -160, -70],[60, 85]
 ]
 
 let boundsLaptop = [
-    [ -160, -70],[160, 90]
+    [ -220, -70],[100, 90]
 ]
 
 let boundsDesktop = [
-    [ -188, -75],[90, 86]
+    [ -248, -75],[30, 86]
 ]
 
 let boundsRetina = [
-    [ -165, -65],[91, 78]
+    [ -225, -65],[31, 78]
 ]
 
 function getBounds () {
