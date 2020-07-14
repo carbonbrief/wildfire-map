@@ -33,10 +33,10 @@ let boundsRetina = [
 
 function getBounds () {
     if (screenWidth > 1400) {
-        return boundsLaptop
+        return boundsRetina
     }
     else if (screenWidth > 1024 && screenWidth < 1400) {
-        return boundsLaptop
+        return boundsDesktop
     } 
     else if (1024 > screenWidth && screenWidth > 850) {
         return boundsLaptop
