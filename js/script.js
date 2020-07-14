@@ -38,7 +38,7 @@ function getBounds () {
         return boundsRetina
     }
     else if (screenWidth > 1024 && screenWidth < 1400) {
-        return boundsDesktop
+        return boundsRetina
     } 
     else if (1024 > screenWidth && screenWidth > 850) {
         return boundsLaptop
